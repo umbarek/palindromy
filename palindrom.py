@@ -8,3 +8,7 @@ def palindromy(word):
     word = word.lower()
     reverse_word = "".join(reversed(word))
 
+    print (f"Sprawdzam, czy podane słowo jest palindromem...")
+    print ("Wynik sprawdzenia: " + "\033[1m", (word == reverse_word))
+    print ("\033[0m")
+palindromy(n)
